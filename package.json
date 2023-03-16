@@ -9,14 +9,21 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.14",
     "core-js": "^3.25.3",
+    "node-sass": "^8.0.0",
     "nuxt": "^2.15.8",
+    "sass-loader": "^10",
+    "tailwindcss": "^3.2.7",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.3",
-    "postcss": "^8.4.17"
+    "postcss": "^8.4.21"
+  },
+  "resolutions": {
+    "@nuxt/kit": "3.0.0-rc.13"
   }
 }
