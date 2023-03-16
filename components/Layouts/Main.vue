@@ -1,6 +1,6 @@
 <template>
-    <div class="main-cta rounded-xl p-8"> 
-        <div class="flex flex-col items-center relative h-full gap-2 justify-start lg:pt-20"> 
+    <div class="main-cta rounded-xl p-8">
+        <div class="flex flex-col items-center relative h-full gap-2 justify-start lg:pt-20">
             <!-- <div class="bg-white p-1 pl-4 pr-4 rounded-full border text-mini">
                 <span class="text-xs opacity-50 bg-gray-100 uppercase">Introducing you to myonefi.com</span>
             </div> -->
@@ -16,8 +16,8 @@
                 <!-- <span class="opacity-100 text-sm text-mini text-primary mt-6"> Join our Private Beta List today to begin.</span> -->
             </h6>
 
-            <div class="mt-4"> 
-                <form> 
+            <div class="mt-4">
+                <form>
                     <div class="w-full  relative">
                         <!-- <input class="p-4 w-full pl-8 pr-8 rounded-lg" placeholder="Enter your email eddress" type="email" /> -->
                         <router-link :to="{name: 'index-join'}">
@@ -33,19 +33,19 @@
                 </form>
             </div>
 
-            <div class="absolute bottom-0"> 
-                <button class="p-3 pl-6 pr-6 hover:bg-gray-100 items-center rounded-full text-sm bg-white border flex gap-4">
+            <div class="absolute bottom-0">
+                <a href="#how-it-works" class="p-3 pl-6 pr-6 hover:bg-gray-100 items-center rounded-full text-sm bg-white border flex gap-4">
                     See How it Works
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.79289 8.54289C5.18342 8.15237 5.81658 8.15237 6.20711 8.54289L12 14.3358L17.7929 8.54289C18.1834 8.15237 18.8166 8.15237 19.2071 8.54289C19.5976 8.93341 19.5976 9.56658 19.2071 9.9571L13.4142 15.75C12.6332 16.531 11.3668 16.531 10.5858 15.75L4.79289 9.95711C4.40237 9.56658 4.40237 8.93342 4.79289 8.54289Z" fill="black"/>
                     </svg>
 
-                </button>
+                  </a>
             </div>
-            <!-- <div class="flex flex-col items-center justify-center mt-12"> 
+            <!-- <div class="flex flex-col items-center justify-center mt-12">
                 <img class="w-2/6 object-fit" src="@/static/images/screen-iphone/iphone.png" />
             </div> -->
-            <div class="w-screen absolute"> 
+            <div class="w-screen absolute">
                 <!-- <div class="h-14 w-screen bg-red-500" style="transform:rotate(-45deg)"></div> -->
                 <!-- <div class="h-14 w-screen bg-blue-500"></div> -->
             </div>

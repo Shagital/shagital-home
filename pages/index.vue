@@ -18,6 +18,7 @@ import Join from "@/components/Layouts/Join.vue"
 import FooterM from "@/components/Layouts/Footer.vue"
 export default {
   name: 'IndexPage',
+  title: 'Join waitlist | MyOneFi',
   components: {Layout, MainCta,Features, Join, FooterM}
 }
 </script>
