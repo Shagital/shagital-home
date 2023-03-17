@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-row justify-between items-center">
         <span>
-            <img src="@/static/images/colour.png"  class="w-32"/>
+            <img src="@/static/images/colour.png"  class="lg:w-32 w-24"/>
         </span>
 
         <ul class="flex lg:gap-12 gap-6 items-center">
