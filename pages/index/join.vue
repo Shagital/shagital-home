@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="modal overflow-y-scroll">
-      <div class="modal__wrapper shadow lg:rounded-t-lg rounded-t-3xl">
+      <div class="modal__wrapper  shadow lg:rounded-t-lg rounded-t-3xl">
         <div class="modal__title pr-8 pt-4 pb-4 lg:rounded-t-lg rounded-t-3xl">
           <div class="flex items-center justify-between">
             <div class="flex pl-4 items-center gap-4">
@@ -193,6 +193,7 @@
 </template>
 
 <style lang="scss" scoped>
+@import "@/assets/css/components/_variables.scss";
 .modal {
   position: fixed;
   width: 100%;
@@ -213,16 +214,16 @@
     max-width: 550px;
     background: white;
     height: fit-content;
-    margin: 10vh auto;
+    margin: 10vh 20px;
     position: relative;
 
-    // @include sm {
-    //     // max-width: 550px;
-    //     // background: white;
-    //     // height: fit-content;
-    //     // margin: 10vh auto;
-    //     // position: relative;
-    // }
+    @include sm {
+        max-width: 550px;
+        // background: white;
+        // height: fit-content;
+        margin: 10vh auto;
+        // position: relative;
+    }
   }
   &__title {
     background: #f7f7f7;

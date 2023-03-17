@@ -1,10 +1,10 @@
 <template>
-    <div class="bg-gray-100 p-4 mt-8 rounded-xl flex items-center justify-between" id="footer">
+    <div class="bg-gray-100 p-4 mt-8 lg:mb-0 mb-6 rounded-xl flex-wrap gap-4 flex items-center justify-between" id="footer">
         <div>
             <img src="@/static/images/colour1.png" class="w-10"/>
         </div>
         <div>
-            <span class="text-sm opacity-60">All Rights reserved &copy MyOneFi.com</span>
+            <span class="text-sm opacity-60">All Rights reserved &copy owofi.com</span>
         </div>
         <div class="flex gap-4">
             <a href='//instagram.com/Myonefiapp' class="w-8 h-8 rounded-full bg-white flex items-center justify-center">

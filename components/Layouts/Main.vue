@@ -1,18 +1,18 @@
 <template>
     <div class="main-cta rounded-xl p-8">
-        <div class="flex flex-col items-center relative h-full gap-2 justify-start lg:pt-20">
+        <div class="flex flex-col lg:items-center items-start relative h-full gap-2 justify-start lg:pt-20">
             <!-- <div class="bg-white p-1 pl-4 pr-4 rounded-full border text-mini">
                 <span class="text-xs opacity-50 bg-gray-100 uppercase">Introducing you to myonefi.com</span>
             </div> -->
             <span class="text-sm opacity-50">*****</span>
-            <h1 class="text-7xl mt-2 text-bold flex flex-col items-center justify-center text-primary">
+            <h1 class="lg:text-7xl text-3xl mt-2 text-bold flex flex-col lg:items-center items-start justify-center text-primary">
                 <span class="text-bold">Easy, Offline</span>
                 <span class="text-bold">Payment Solution.</span>
             </h1>
-            <h6 class="flex flex-col text-center">
-                <span class="opacity-70 text-lg">Onefi is the payment solution that lets you </span>
-                <span class="opacity-70 text-lg"> Send and Receive money even with no internet.</span>
-                <span class="opacity-70 text-lg"> Fast & Secure.</span>
+            <h6 class="flex flex-col lg:text-center">
+                <span class="opacity-70 lg:text-lg text-sm">OwoFi is the payment solution that lets you </span>
+                <span class="opacity-70  lg:text-lg text-sm"> Send and Receive money even with no internet.</span>
+                <span class="opacity-70  lg:text-lg text-sm"> Fast & Secure.</span>
                 <!-- <span class="opacity-100 text-sm text-mini text-primary mt-6"> Join our Private Beta List today to begin.</span> -->
             </h6>
 
@@ -21,7 +21,7 @@
                     <div class="w-full  relative">
                         <!-- <input class="p-4 w-full pl-8 pr-8 rounded-lg" placeholder="Enter your email eddress" type="email" /> -->
                         <router-link :to="{name: 'index-join'}">
-                        <button class=" right-0 bg-primary flex gap-4 items-center w-full text-white p-6 pl-12 pr-12 rounded-lg ">
+                        <button class=" right-0 bg-primary flex gap-4 items-center w-full text-white lg:p-6 p-6 lg:pl-12 lg:pr-12 pl-8 pr-8 text-sm lg:text-base rounded-lg ">
                             Join Private List
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3 12C3 11.4477 3.44772 11 4 11L19.5 11C20.0523 11 20.5 11.4477 20.5 12C20.5 12.5523 20.0523 13 19.5 13L4 13C3.44772 13 3 12.5523 3 12Z" fill="white"/>
@@ -54,16 +54,5 @@
 </template>
 
 <style lang="scss" scoped>
-.main-cta {
-    background: linear-gradient(
-      to bottom,
-      rgba(239, 199, 228, 0.875),
-      rgba(245, 246, 252, 0.423)
-    ),
-    url("~/static/images/background-white-2x2.png");
-    height: 85vh;
-    // width: 50%;
-    background-repeat: repeat;
-    background-size: 50%;
-}
+
 </style>

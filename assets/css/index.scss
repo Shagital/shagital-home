@@ -33,6 +33,24 @@ body,
 * {
   scroll-behavior: smooth !important;
 }
+.main-cta {
+    background: linear-gradient(
+      to bottom,
+      rgba(239, 199, 228, 0.875),
+      rgba(245, 246, 252, 0.423)
+    ),
+    url("~/static/images/background-white-2x2.png");
+    height: 55vh;
+    background-size: 100%;
+    background-repeat: repeat;
+
+    @include sm {
+        height: 85vh;
+        // width: 50%;
+        background-repeat: repeat;
+        background-size: 50%;
+    }
+}
 h1,
 h2 {
   font-family: "whyte-bold";

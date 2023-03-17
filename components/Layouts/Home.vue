@@ -1,5 +1,5 @@
 <template>
-    <section class="main p-12 pt-6 pb-4"> 
+    <section class="main lg:p-12 p-4 pt-6 pb-4"> 
         <navbar></navbar>
         
         <div class="mt-8"> 
