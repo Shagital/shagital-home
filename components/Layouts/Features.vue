@@ -31,7 +31,7 @@
                         <button class="w-24 h-32 rounded-full border-black border-2 text-xl text-bold">2</button>
                         <div>
                             <h3 class="text-bold lg:text-2xl text-xl">Transact Offline</h3>
-                            <h6 class="opacity-50 text-sm lg:text-base">Easily send and receive money from anywhere in the world. With a onefi tag, sending money takes seconds</h6>
+                            <h6 class="opacity-50 text-sm lg:text-base">OwoFi works offline. You can send and receive money with no internet, and it syncs with your wallet once you are back online!</h6>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                         <button class="w-24 h-32 rounded-full border-black border-2 text-xl text-bold">3</button>
                         <div>
                             <h3 class="text-bold lg:text-2xl text-xl">Pay Bills</h3>
-                            <h6 class="opacity-50 text-sm lg:text-base">Easily send and receive money from anywhere in the world. With a onefi tag, sending money takes seconds</h6>
+                            <h6 class="opacity-50 text-sm lg:text-base">Easily perform a host of actions on OwoFi, pay bills, fund card, withdraw and many more. OwoFi is the financial solution for you.</h6>
                         </div>
                     </div>
                 </div>
