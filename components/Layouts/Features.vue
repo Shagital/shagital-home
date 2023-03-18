@@ -22,7 +22,7 @@
                         <button class="w-24 h-32 rounded-full border-black border-2 text-xl text-bold">1</button>
                         <div>
                             <h3 class="text-bold lg:text-2xl text-xl">Send & Receive Money</h3>
-                            <h6 class="opacity-50 text-sm lg:text-base">Easily send and receive money from anywhere in the world. With a onefi tag, sending money takes seconds</h6>
+                            <h6 class="opacity-50 text-sm lg:text-base">Easily send and receive money from anywhere in the world. With your OwoFi tag, sending money takes seconds.</h6>
                         </div>
                     </div>
                 </div>

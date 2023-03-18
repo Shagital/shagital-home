@@ -12,7 +12,7 @@
             <h6 class="flex flex-col lg:text-center">
                 <span class="opacity-70 lg:text-lg text-sm">OwoFi is the payment solution that lets you </span>
                 <span class="opacity-70  lg:text-lg text-sm"> Send and Receive money even with no internet.</span>
-                <span class="opacity-70  lg:text-lg text-sm"> Fast & Secure.</span>
+                <span class="opacity-70  lg:text-lg text-sm"> Seamless & Secured.</span>
                 <!-- <span class="opacity-100 text-sm text-mini text-primary mt-6"> Join our Private Beta List today to begin.</span> -->
             </h6>
 
