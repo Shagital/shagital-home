@@ -46,9 +46,9 @@
                 </div>
             </div>
             <div class="bg-gray-50  flex items-center relative h-full justify-center p-8 pt-12 lg:pt-8 rounded-xl demos" ref="demos">
-                <img class="w-3/6 object-fit" v-if="activePage == 1" src="@/static/images/screen-iphone/iphone.png" />
-                <img class="w-3/6 object-fit" v-if="activePage == 2" src="@/static/images/screen-iphone/iphone.png" />
-                <img class="w-3/6 object-fit" v-if="activePage == 3" src="@/static/images/screen-iphone/iphone.png" />
+                <img class="w-3/6 object-fit" v-if="activePage == 1" src="@/static/images/screen-iphone/send-receive.png" />
+                <img class="w-3/6 object-fit" v-if="activePage == 2" src="@/static/images/screen-iphone/offline.png" />
+                <img class="w-3/6 object-fit" v-if="activePage == 3" src="@/static/images/screen-iphone/pay-bills.png" />
             </div>
         </div>
     </div>
