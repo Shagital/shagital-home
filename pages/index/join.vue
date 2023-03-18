@@ -201,7 +201,7 @@
   background: rgba(0, 0, 0, 0.324);
   left: 0;
   top: 0;
-  z-index: 2;
+  z-index: 2000000000000;
   // transition: all 100s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
   &__wrapper {
