@@ -69,8 +69,8 @@
         <div class="modal__content p-4 pb-12">
           <div v-if="!isSuccess">
             <slot name="content">
-              <span class="text-sm text opacity-40"
-                >Begin enjoying seamless offline payment as a beta user. Enter
+              <span class="text-sm text opacity-70 text-primary"
+                >Begin enjoying seamless offline payment as an early user. Enter
                 your email below and we would follow up on how to get
                 started.</span
               >
