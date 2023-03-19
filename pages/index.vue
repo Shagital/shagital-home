@@ -1,11 +1,11 @@
 <template>
   <layout>
     <div slot="content">
-      <router-view></router-view>
+      <!-- <router-view></router-view> -->
       <main-cta></main-cta>
-      <features></features>
+      <!-- <features></features>
       <join></join>
-      <footer-m></footer-m>
+      <footer-m></footer-m> -->
     </div>
   </layout>
 </template>
