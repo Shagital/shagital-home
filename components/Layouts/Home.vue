@@ -30,14 +30,14 @@
                     <div class="grid lg:grid-cols-4 grid-cols-1 gap-4 mt-20"> 
                         <div class="flex flex-col gap-4">
                             <div class="flex items-end justify-end"> 
-                                <button class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
+                                <a href="https://owofi.com" target="_blank" class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
                                     VISIT  
                                     <svg width="16" height="16" style="transform: rotate(45deg)" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21C12.5523 21 13 20.5523 13 20V4.5C13 3.94772 12.5523 3.5 12 3.5C11.4477 3.5 11 3.94772 11 4.5V20C11 20.5523 11.4477 21 12 21Z" fill="black"/>
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.79289 10.7071C5.18342 11.0976 5.81658 11.0976 6.20711 10.7071L12 4.91421L17.7929 10.7071C18.1834 11.0976 18.8166 11.0976 19.2071 10.7071C19.5976 10.3166 19.5976 9.68342 19.2071 9.29289L13.4142 3.5C12.6332 2.71895 11.3668 2.71895 10.5858 3.5L4.79289 9.29289C4.40237 9.68342 4.40237 10.3166 4.79289 10.7071Z" fill="black"/>
                                     </svg>
 
-                                </button>
+                                </a>
                             </div>
                             <div class="product relative product--1 pt-24"> 
                                 <div class="flex items-center justify-center">
@@ -50,14 +50,14 @@
                         </div>
                         <div class="flex flex-col gap-4">
                             <div class="flex items-end justify-end"> 
-                                <button class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
+                                <a href="https://mysub.io" target="_blank" class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
                                     VISIT  
                                     <svg width="16" height="16" style="transform: rotate(45deg)" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21C12.5523 21 13 20.5523 13 20V4.5C13 3.94772 12.5523 3.5 12 3.5C11.4477 3.5 11 3.94772 11 4.5V20C11 20.5523 11.4477 21 12 21Z" fill="black"/>
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.79289 10.7071C5.18342 11.0976 5.81658 11.0976 6.20711 10.7071L12 4.91421L17.7929 10.7071C18.1834 11.0976 18.8166 11.0976 19.2071 10.7071C19.5976 10.3166 19.5976 9.68342 19.2071 9.29289L13.4142 3.5C12.6332 2.71895 11.3668 2.71895 10.5858 3.5L4.79289 9.29289C4.40237 9.68342 4.40237 10.3166 4.79289 10.7071Z" fill="black"/>
                                     </svg>
 
-                                </button>
+                                </a>
                             </div>
                             <div class="product relative product--2 pt-24"> 
                                 <div class="flex items-center justify-center">
@@ -70,14 +70,14 @@
                         </div>
                         <div class="flex flex-col gap-4">
                             <div class="flex items-end justify-end"> 
-                                <button class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
+                                <a href="https://vuejs.jobs" target="_blank" class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
                                     VISIT  
                                     <svg width="16" height="16" style="transform: rotate(45deg)" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21C12.5523 21 13 20.5523 13 20V4.5C13 3.94772 12.5523 3.5 12 3.5C11.4477 3.5 11 3.94772 11 4.5V20C11 20.5523 11.4477 21 12 21Z" fill="black"/>
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.79289 10.7071C5.18342 11.0976 5.81658 11.0976 6.20711 10.7071L12 4.91421L17.7929 10.7071C18.1834 11.0976 18.8166 11.0976 19.2071 10.7071C19.5976 10.3166 19.5976 9.68342 19.2071 9.29289L13.4142 3.5C12.6332 2.71895 11.3668 2.71895 10.5858 3.5L4.79289 9.29289C4.40237 9.68342 4.40237 10.3166 4.79289 10.7071Z" fill="black"/>
                                     </svg>
 
-                                </button>
+                                </a>
                             </div>
                             <div class="product relative product--3 pt-24"> 
                                 <div class="flex items-center justify-center">
@@ -90,14 +90,14 @@
                         </div>
                         <div class="flex flex-col gap-4">
                             <div class="flex items-end justify-end"> 
-                                <button class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
+                                <a href="https://feedmonkey.io" target="_blank" class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
                                     VISIT  
                                     <svg width="16" height="16" style="transform: rotate(45deg)" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21C12.5523 21 13 20.5523 13 20V4.5C13 3.94772 12.5523 3.5 12 3.5C11.4477 3.5 11 3.94772 11 4.5V20C11 20.5523 11.4477 21 12 21Z" fill="black"/>
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.79289 10.7071C5.18342 11.0976 5.81658 11.0976 6.20711 10.7071L12 4.91421L17.7929 10.7071C18.1834 11.0976 18.8166 11.0976 19.2071 10.7071C19.5976 10.3166 19.5976 9.68342 19.2071 9.29289L13.4142 3.5C12.6332 2.71895 11.3668 2.71895 10.5858 3.5L4.79289 9.29289C4.40237 9.68342 4.40237 10.3166 4.79289 10.7071Z" fill="black"/>
                                     </svg>
 
-                                </button>
+                                </a>
                             </div>
                             <div class="product relative product--4 pt-24"> 
                                 <div class="flex items-center justify-center">
@@ -110,14 +110,14 @@
                         </div>
                         <div class="flex flex-col gap-4">
                             <div class="flex items-end justify-end"> 
-                                <button class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
+                                <a href="https://mybookmarks.space" target="_blank" class="flex p-4 hover:bg-gray-100 rounded-full pt-2 pb-2 text-sm items-center gap-4 border-2">
                                     VISIT  
                                     <svg width="16" height="16" style="transform: rotate(45deg)" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21C12.5523 21 13 20.5523 13 20V4.5C13 3.94772 12.5523 3.5 12 3.5C11.4477 3.5 11 3.94772 11 4.5V20C11 20.5523 11.4477 21 12 21Z" fill="black"/>
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.79289 10.7071C5.18342 11.0976 5.81658 11.0976 6.20711 10.7071L12 4.91421L17.7929 10.7071C18.1834 11.0976 18.8166 11.0976 19.2071 10.7071C19.5976 10.3166 19.5976 9.68342 19.2071 9.29289L13.4142 3.5C12.6332 2.71895 11.3668 2.71895 10.5858 3.5L4.79289 9.29289C4.40237 9.68342 4.40237 10.3166 4.79289 10.7071Z" fill="black"/>
                                     </svg>
 
-                                </button>
+                                </a>
                             </div>
                             <div class="product relative product--4 pt-24"> 
                                 <div class="flex items-center justify-center">

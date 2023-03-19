@@ -66,30 +66,33 @@ a {
   position: relative;
   transition: width .5s cubic-bezier(0.39, 0.575, 0.565, 1);
   cursor: pointer;
-  &::before {
-    content: '';
-    width: 0px;
-    height: 1px;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    transition: width .5s cubic-bezier(0.39, 0.575, 0.565, 1);
-  }
-  &.special {
+
+  &:not(.rounded-full) {
     &::before {
       content: '';
       width: 0px;
       height: 1px;
-      background-color: white;
+      background-color: black;
       position: absolute;
       bottom: 0;
       transition: width .5s cubic-bezier(0.39, 0.575, 0.565, 1);
     }
-  }
-  &:hover {
-    &::before {
-      width: 100%;
-      transition: width .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+    &.special {
+      &::before {
+        content: '';
+        width: 0px;
+        height: 1px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        transition: width .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+      }
+    }
+    &:hover {
+      &::before {
+        width: 100%;
+        transition: width .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+      }
     }
   }
 }
