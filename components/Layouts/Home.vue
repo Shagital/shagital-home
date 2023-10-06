@@ -187,12 +187,13 @@
                             <span class="text-sm opacity-70">KEEP IN TOUCH</span>
                             <div>
                                 <a href="mailto:hello@shagital.com" class="text-lg text-bold">EMAIL</a> /
-                                <a href="https://www.linkedin.com/company/shagital" target="_blank" class="text-lg text-bold">LINKEDIN</a>
+                                <a href="https://www.linkedin.com/company/shagital" target="_blank" class="text-lg text-bold">LINKEDIN</a> /
+                                <a href="https://www.twitter.com/helloshagital" target="_blank" class="text-lg text-bold">TWITTER</a>
                             </div>
                         </div>
                         <div class="flex flex-col gap-1">
                             <span class="text-sm">© 2023 All Rights Reserved</span>
-                            <span>Shagital Tech RC: 1782874</span>
+                            <span>Shagital Tech RC: 1782874 | 7, Oshifila street, Ikeja 10001, Lagos, Nigeria</span>
                         </div>
                     </div>
                     <div class="bg-gray-50 flex flex-nowrap gap-4 opacity-10 pt-4 pb-4">
