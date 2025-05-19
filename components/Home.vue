@@ -319,7 +319,7 @@
 </template>
 
 <script>
-import Navbar from "@/components/Layouts/Navbar.vue"
+import Navbar from "@/components/Navbar.vue"
 import PreLoader from "@/components/Preloader.vue"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
