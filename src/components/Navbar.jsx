@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <button className='hidden md:block text-sm px-3 py-2 border rounded-full border-[#DC8B00] cursor-pointer hover:bg-[#DC8B00] transition duration-500 hover:text-white'>CONTACT US</button>
         <div className='block md:hidden text-sm px-1.5 py-1.5 border rounded border-[#DC8B00]'>
-          {isOpen ? <HiX onClick={()=>setIsOpen(!isOpen)} className='text-lg'/> : <HiMenu onClick={()=>setIsOpen(!isOpen)} className='text-lg'/>}
+          {isOpen ? <HiX onClick={()=>setIsOpen(!isOpen)} className='text-xl'/> : <HiMenu onClick={()=>setIsOpen(!isOpen)} className='text-xl'/>}
         </div>
       </nav>
       {isOpen? <div className='relative'>

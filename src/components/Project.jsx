@@ -77,8 +77,8 @@ const topRef = useRef(null);
   return (
     <div className='mx-4 md:mx-16 lg:mx-44 text-white my-10 md:my-16 overflow-hidden space-y-6 scroll-smooth' id='project'>
         <div>
-            <h1 className='text-lg md:text-xl lg:text-2xl font-extrabold bg-gradient-to-br from-[#FFff] to-[#4545458] bg-clip-text text-transparent'>OUR PROJECT</h1>
-            <p className='text-xs md:text-sm font-light mt-1 text-gray-400'>We love building out solutions, here are a few.</p>
+            <h1 className='text-2xl md:text-3xl font-extrabold bg-gradient-to-br from-[#FFff] to-[#4545458] bg-clip-text text-transparent'>OUR PROJECT</h1>
+            <p className='text-lg md:text-xl font-light text-gray-400'>We love building out solutions, here are a few.</p>
         </div>
         <div className="space-y-5">
       {renderRow(projects.slice(0, 5), topRef, false)}
