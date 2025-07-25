@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='text-center text-white py-7 md:py-14'>
-        <h1 className='text-2xl leading-normal lg:leading-16 md:leading-14 md:text-5xl font-extrabold bg-gradient-to-br from-[#FFEED0] to-[#DC8B00] bg-clip-text text-transparent'>
+        <h1 className='text-3xl leading-normal lg:leading-16 md:leading-14 md:text-5xl font-extrabold bg-gradient-to-br from-[#FFEED0] to-[#DC8B00] bg-clip-text text-transparent'>
             <span className='underline text-[#FFEED0]'>SHAGITAL</span> IS A NIGERIAN <br />BASED TECHNOLOGY <br /> COMPANY
         </h1>
         <p className='text-sm md:text-lg mt-2 md:mt-4 leading-relaxed mx-5 font-extralight'>
