@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </nav>
       {isOpen? <div className='relative'>
-        <div className='absolute right-0 bg-white/10 px-5 py-4 rounded-2xl top-2 flex flex-col gap-3 backdrop-blur-xl'>
+        <div className='absolute right-0 bg-white/10 px-5 py-4 rounded-2xl top-2 flex flex-col gap-5 backdrop-blur-xl'>
           {navLinks.map((link)=>(
             <div key={link.name}>
               <a href={link.href} className={`text-sm text-white `} onClick={()=>setIsOpen(!isOpen)}>{link.name}</a>

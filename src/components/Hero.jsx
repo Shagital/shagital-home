@@ -11,8 +11,8 @@ const Hero = () => {
             Shagital is a nigerian based technology company, building products we wished have existed, <br className='hidden md:block'/>in a purpose-driven culture, helping humanity, and making africa <br className='hidden md:block'/>better than it was yesterday.
         </p>
         <div className='mt-5 md:mt-7 flex text-center justify-center gap-3 md:gap-6'>
-            <button className='px-4 py-3 border border-[#DC8B00] rounded-full text-sm md:text-lg cursor-pointer hover:bg-[#DC8B00] transition duration-500 hover:text-white'>VIEW PROJECTS</button>
-            <button className='px-4 py-4 bg-[#DC8B00] rounded-full text-sm md:text-lg cursor-pointer hover:bg-[#dc7900] transition duration-500 hover:text-white'>CONTACT US</button>
+            <a href='#project' className='px-4 py-3 border border-[#DC8B00] rounded-full text-sm md:text-lg cursor-pointer hover:bg-[#DC8B00] transition duration-500 hover:text-white'>VIEW PROJECTS</a>
+            <a href='#contact' className='px-4 py-4 bg-[#DC8B00] rounded-full text-sm md:text-lg cursor-pointer hover:bg-[#dc7900] transition duration-500 hover:text-white'>CONTACT US</a>
         </div>
     </div>
   )
