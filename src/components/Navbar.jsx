@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { HiMenu, HiX } from 'react-icons/hi';
+import { asset } from '../assets/asset';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -14,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='m-4 md:mx-7 md:my-7 lg:mx-9 lg:my-9 text-white scroll-smooth'>
       <nav className='backdrop-blur-3xl bg-white/10 flex items-center justify-between rounded-full px-4 py-3 md:px-6'>
-        <img src="../src/assets/Logo.png" alt="navbar-logo" className='w-8 rounded'/>
+        <img src={asset.logo} alt="navbar-logo" className='w-8 rounded'/>
         <div className='hidden md:flex gap-6 lg:gap-12'>
           {navLinks.map((link)=>(
             <div key={link.name}>
