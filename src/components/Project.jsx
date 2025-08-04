@@ -57,14 +57,17 @@ const Project = () => {
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-r from-black via-transparent to-black opacity-40" />
 
         {/* Scroll content */}
-        <div className="scroll-content flex gap-3 w-max cursor-pointer">
+        <div className="scroll-content flex gap-3 w-max ">
           {duplicated.map((project, idx) => (
             <div
               key={idx}
-              className="relative min-w-[350px] h-[250px] bg-gray-800 rounded flex items-center justify-center text-white shadow-lg"
-              onClick={() => window.open(`${project.hrefLink}`, '_blank')}
+              className={`relative min-w-[350px] h-[250px] bg-gray-800 rounded flex items-center justify-center text-white shadow-lg cursor-${project.isAvailable ? 'pointer' : 'not-allowed'}`}
+              onClick={() => {
+                if (project.isAvailable) {
+                  window.open(`${project.hrefLink}`, "_blank");
+                }
+              }}
             >
-
               <img
                 src={project.projectImage}
                 alt={project.projectName}
@@ -72,18 +75,24 @@ const Project = () => {
                 loading="lazy"
               />
               <div class="absolute inset-0 bg-black/70 "></div>
-              {project.id === 6 ? <img
-                src={project.ImageOverlay}
-                alt=""
-                loading="lazy"
-                className="absolute w-[170px] z-10 bg-white px-4 py-3"
-              /> : <img
-                src={project.ImageOverlay}
-                alt=""
-                loading="lazy"
-                className="absolute w-[170px] z-10"
-              />}
-              <p className="absolute w-full bg-[#140c2c] bottom-0 px-4 py-2 text-sm font-extralight">{project.Desc}</p>
+              {project.id === 6 ? (
+                <img
+                  src={project.ImageOverlay}
+                  alt=""
+                  loading="lazy"
+                  className="absolute w-[170px] z-10 bg-white px-4 py-3"
+                />
+              ) : (
+                <img
+                  src={project.ImageOverlay}
+                  alt=""
+                  loading="lazy"
+                  className="absolute w-[170px] z-10"
+                />
+              )}
+              <p className="absolute w-full bg-[#140c2c] bottom-0 px-4 py-2 text-sm font-extralight">
+                {project.Desc}
+              </p>
             </div>
           ))}
         </div>
@@ -113,7 +122,11 @@ const Project = () => {
             <div
               key={idx}
               className="relative w-full h-[250px] bg-gray-800 rounded"
-              onClick={() => window.open(`${project.hrefLink}`, '_blank')}
+              onClick={() => {
+                if (project.isAvailable) {
+                  window.open(`${project.hrefLink}`, "_blank");
+                }
+              }}
             >
               <img
                 src={project.projectImage}
@@ -121,18 +134,24 @@ const Project = () => {
                 className="h-full w-full object-cover rounded"
               />
               <div class="absolute inset-0 bg-black/70 "></div>
-              {project.id === 6 ? <img
-                src={project.ImageOverlay}
-                alt=""
-                loading="lazy"
-                className="absolute w-[170px] z-10 bg-white px-4 py-3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-              /> : <img
-                src={project.ImageOverlay}
-                alt=""
-                loading="lazy"
-                className="absolute w-[170px] z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-              />}
-              <p className="absolute w-full bg-[#140c2c] bottom-0 px-2 py-2 text-sm font-extralight text-white/90">{project.Desc}</p>
+              {project.id === 6 ? (
+                <img
+                  src={project.ImageOverlay}
+                  alt=""
+                  loading="lazy"
+                  className="absolute w-[170px] z-10 bg-white px-4 py-3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                />
+              ) : (
+                <img
+                  src={project.ImageOverlay}
+                  alt=""
+                  loading="lazy"
+                  className="absolute w-[170px] z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                />
+              )}
+              <p className="absolute w-full bg-[#140c2c] bottom-0 px-2 py-2 text-sm font-extralight text-white/90">
+                {project.Desc}
+              </p>
             </div>
           ))}
         </div>
