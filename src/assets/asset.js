@@ -1,4 +1,3 @@
-  import projectImage from '../assets/projectImage.png'
   import logo from '../assets/Logo.png'
 
   export const asset = {
