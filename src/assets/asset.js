@@ -1,17 +1,5 @@
   import logo from '../assets/Logo.png'
-  // import owofi_Image from '/images/products/owofi.jpeg'
-  // import owofi_Image_Logo from '/images/logos/owofi.png'
-  // import mysub_Image from '/images/products/netflix.jpeg'
-  // import mysub_Image_Logo from '/images/logos/mysub.png'
-  // import vuejobs_Image from '/images/products/engineer.jpeg'
-  // import vuejobs_Image_Logo from '/images/logos/vuejobs.png'
-  // import feedmonkay_Image from '/images/products/customer.jpeg'
-  // import feedmonkay_Image_Logo from '/images/logos/feedmonkay.png'
-  // import tbvh_Image_Logo from '/images/logos/tbvh.png'
-  // import goalgenius_Image_Logo from '/images/logos/goalgenius.png'
-  // import trustshield_Image_Logo from '/images/logos/trustshield.png'
-  // import xpreview_Image_Logo from '/images/logos/xpreview.png'
-
+  
   export const asset = {
     logo: logo
   }
