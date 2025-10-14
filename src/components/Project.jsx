@@ -74,7 +74,7 @@ const Project = () => {
                 className="h-full object-cover rounded w-full"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-black/70 "></div>
+              <div className="absolute inset-0 bg-black/70 "></div>
               {project.id === 6 ? (
                 <img
                   src={project.ImageOverlay}
@@ -133,7 +133,7 @@ const Project = () => {
                 alt={project.projectName}
                 className="h-full w-full object-cover rounded"
               />
-              <div class="absolute inset-0 bg-black/70 "></div>
+              <div className="absolute inset-0 bg-black/70 "></div>
               {project.id === 6 ? (
                 <img
                   src={project.ImageOverlay}
