@@ -149,7 +149,7 @@ const Project = () => {
                   className="absolute w-[170px] z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                 />
               )}
-              <p className="absolute w-full bg-[#140c2c] bottom-0 px-2 py-2 text-sm font-extralight text-white/90">
+              <p className="absolute w-full bg-[#140c2c] bottom-0 px-2 py-2 text-[16px] font-extralight text-white/90">
                 {project.Desc}
               </p>
             </div>
