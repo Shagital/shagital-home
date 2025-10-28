@@ -1,0 +1,10 @@
+[build]
+  # build command
+  command = "npm run build"
+  # folder to deploy
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
